@@ -8,24 +8,24 @@ import classes from './App.module.css';
 
 const API_ENDPOINT = 'https://hn.algolia.com/api/v1/search?query=';
 
-const initialStories = [
-  {
-    title: 'React',
-    url: 'www.react.org',
-    author: 'Micheal Jordan',
-    num_comment: 3,
-    points: 4,
-    objectID: 1,
-  },
-  {
-    title: 'Vue',
-    url: 'www.vue.org',
-    author: 'Express Obat',
-    num_comment: 5,
-    points: 10,
-    objectID: 2,
-  }
-];
+// const initialStories = [
+//   {
+//     title: 'React',
+//     url: 'www.react.org',
+//     author: 'Micheal Jordan',
+//     num_comment: 3,
+//     points: 4,
+//     objectID: 1,
+//   },
+//   {
+//     title: 'Vue',
+//     url: 'www.vue.org',
+//     author: 'Express Obat',
+//     num_comment: 5,
+//     points: 10,
+//     objectID: 2,
+//   }
+// // ];
 
 // const getAsyncStories = () =>
 //   new Promise(resolve =>
