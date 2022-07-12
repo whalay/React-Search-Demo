@@ -1,0 +1,48 @@
+.card{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    justify-items:center ;
+    padding: 10px;
+    padding-left: 35px;
+    
+    background: #eaebd1;
+}
+
+span button {
+    font: inherit;
+    border: 1px solid #8db828;
+    background: #77aeec;
+    color: white;
+    padding: 0.35rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 1px;
+}
+
+button:hover,
+button:active {
+    background: #72696a;
+    border-color: #868811;
+}
+
+span:nth-child(1){
+    width: 40%;
+    color: green;
+}
+span:nth-child(2){
+    width: 20%;
+    color: blue;
+}
+span:nth-child(3){
+    width: 20%;
+    color:p;
+}
+span:nth-child(4){
+    width: 10%;
+    color: crimson;
+}
+span:nth-child(5){
+    width: 10%;
+ }
+ 

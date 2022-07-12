@@ -1,0 +1,28 @@
+.InputWithLabel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.InputWithLabel label {
+    /* border-top: 1px solid #171212;
+    border-left: 1px solid #171212; */
+    padding-left: 5px;
+    font-size: 24px;
+    color: #aa0b0b;
+    
+}
+.InputWithLabel input {
+    flex: 1;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #719ece;
+    margin-left: 10px;
+}
+
+.InputWithLabel input:focus {
+    outline: none !important;
+    border-color: #719ece;
+    box-shadow: 0 0 10px #719ece;
+}

@@ -1,0 +1,59 @@
+.item{
+   padding: 5px;
+   margin: 5px;
+   display: flex;
+   justify-content: space-around;
+   justify-items:center ;
+}
+
+.item span a{
+   color:inherit;
+}
+
+.item span{
+   padding: 0 5px;
+   white-space: nowrap;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis
+}
+
+.item button {
+   background: transparent;
+   border: 1px solid #171212;
+   padding: 5px;
+   cursor: pointer;
+   transition: all 0.1s ease-in;
+}
+.item button:hover {
+   background: #171212;
+   color: #ffffff;
+}
+
+.item span:nth-child(1){
+   width: 30%;
+   color: green;
+}
+.item span:nth-child(2){
+   width: 20%;
+   color: blue;
+}
+.item span:nth-child(3){
+   width: 10%;
+   color:p;
+}
+.item span:nth-child(4){
+   width: 10%;
+   color: crimson;
+}
+.item span:nth-child(5){
+   width: 10%;
+}
+
+.buttonSmall {
+   padding: 5px;
+}
+   
+.buttonLarge {
+   padding: 10px;
+}

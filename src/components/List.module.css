@@ -1,0 +1,16 @@
+.list{
+    padding: 1rem;
+    margin: 10px;
+    display: flex;
+   justify-content: space-between;
+   justify-items:center ;
+}
+
+.list a{
+   padding: 10px;
+   color:red;
+}
+
+.list span{
+    padding: 5px;
+}

@@ -1,0 +1,25 @@
+.container {
+    height: 100vw;
+    padding: 20px;
+    background: #83a4d4; /* fallback for old browsers */
+    background: linear-gradient(to left, #b6fbff, #83a4d4);
+    color: #171212;
+
+}
+
+.headlinePrimary {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width:480px ) {
+    .headlinePrimary{
+        font-size: 20px;
+
+    }
+    
+}
